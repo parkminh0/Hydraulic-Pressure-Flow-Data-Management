@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplyMsg" xml:space="preserve">
+    <value>Applied successfully.</value>
+  </data>
+  <data name="ApplyMsg1" xml:space="preserve">
+    <value>Would you like to apply?</value>
+  </data>
+  <data name="AxisY0" xml:space="preserve">
+    <value>Flow 1(L/min)</value>
+  </data>
+  <data name="AxisY1" xml:space="preserve">
+    <value>Pressure 1(kg/cm²)</value>
+  </data>
+  <data name="AxisY2" xml:space="preserve">
+    <value>Flow 2(L/min)</value>
+  </data>
+  <data name="AxisY3" xml:space="preserve">
+    <value>Pressure 2(kg/cm²)</value>
+  </data>
+  <data name="btnPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="btnPrintPDF" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ChartAxisX" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Delete2Msg" xml:space="preserve">
+    <value>Are you sure you want to delete the selected records?</value>
+  </data>
+  <data name="DeleteErrMsg" xml:space="preserve">
+    <value>The record you want to delete is being viewed.</value>
+  </data>
+  <data name="DeleteMsg" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="DeleteMsgCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteMsg_Err" xml:space="preserve">
+    <value>Error occured while deleting.</value>
+  </data>
+  <data name="DeleteMsg_Load" xml:space="preserve">
+    <value>Load the most recent record.</value>
+  </data>
+  <data name="DeleteMsg_NoData" xml:space="preserve">
+    <value>There is no data to delete.</value>
+  </data>
+  <data name="DeleteMsg_Success" xml:space="preserve">
+    <value>Deleted successfully.</value>
+  </data>
+  <data name="EditDataMsg" xml:space="preserve">
+    <value>Are you sure you want to apply the modifications?</value>
+  </data>
+  <data name="EditData_Caption" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditData_Success" xml:space="preserve">
+    <value>Edited successfully.</value>
+  </data>
+  <data name="EditLoadMsg" xml:space="preserve">
+    <value>There is no data to replace.</value>
+  </data>
+  <data name="ErrMsg_Caption" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Err_Saving" xml:space="preserve">
+    <value>Error in saving file.</value>
+  </data>
+  <data name="FlowAvg1Caption" xml:space="preserve">
+    <value>Flow
+Avg 1</value>
+  </data>
+  <data name="FlowAvg2Caption" xml:space="preserve">
+    <value>Flow
+Avg 2</value>
+  </data>
+  <data name="LoadExcel_Err" xml:space="preserve">
+    <value>Excel Load Failed</value>
+  </data>
+  <data name="LoadExcel_ExistErr" xml:space="preserve">
+    <value>Please close the excel file and try again.</value>
+  </data>
+  <data name="LoadingDataMsg" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="Load_type" xml:space="preserve">
+    <value>Excel File</value>
+  </data>
+  <data name="Msg_Saved" xml:space="preserve">
+    <value>Successfully saved.</value>
+  </data>
+  <data name="Msg_SavingPdf" xml:space="preserve">
+    <value>Saving in PDF…</value>
+  </data>
+  <data name="NewLoadMsg1" xml:space="preserve">
+    <value>Changes have not been saved.</value>
+  </data>
+  <data name="NewLoadMsg2" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="PDF_Caption" xml:space="preserve">
+    <value>InfusionRecord</value>
+  </data>
+  <data name="PressAvg1Caption" xml:space="preserve">
+    <value>Pressure
+Avg 1</value>
+  </data>
+  <data name="PressAvg2Caption" xml:space="preserve">
+    <value>Pressure
+Avg 2</value>
+  </data>
+  <data name="ProducerMsg" xml:space="preserve">
+    <value>Producer http://www.wooribnc.com WOORIBNC</value>
+  </data>
+  <data name="QuitMsg" xml:space="preserve">
+    <value>Are you sure you want to quit the program?</value>
+  </data>
+  <data name="QuitMsg_Caption" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="regist_text" xml:space="preserve">
+    <value>New registration</value>
+  </data>
+  <data name="ReplaceLoadMsg" xml:space="preserve">
+    <value>There is no data to replace.</value>
+  </data>
+  <data name="SaveMsg" xml:space="preserve">
+    <value>Do you want to save?</value>
+  </data>
+  <data name="SaveMsg_Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveMsg_Success" xml:space="preserve">
+    <value>Saved successfully.</value>
+  </data>
+  <data name="SavingMsg" xml:space="preserve">
+    <value>Saving data...</value>
+  </data>
+  <data name="SearchResult1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SearchResult2" xml:space="preserve">
+    <value> Results</value>
+  </data>
+  <data name="Series0" xml:space="preserve">
+    <value>Flow 1</value>
+  </data>
+  <data name="Series1" xml:space="preserve">
+    <value>Pressure 1</value>
+  </data>
+  <data name="Series2" xml:space="preserve">
+    <value>Flow 2</value>
+  </data>
+  <data name="Series3" xml:space="preserve">
+    <value>Pressure 2</value>
+  </data>
+  <data name="Splash_DB_Err" xml:space="preserve">
+    <value>Error in connecting to database.</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>WOO SUNG ENGINEERING</value>
+  </data>
+  <data name="toggleFloat" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="toggleInt" xml:space="preserve">
+    <value>Int</value>
+  </data>
+  <data name="tooltip" xml:space="preserve">
+    <value>When blank or 0 is entered, it is applied as the initial value.</value>
+  </data>
+</root>
